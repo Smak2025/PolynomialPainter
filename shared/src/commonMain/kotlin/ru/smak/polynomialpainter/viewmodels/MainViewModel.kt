@@ -3,7 +3,6 @@ package ru.smak.polynomialpainter.viewmodels
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
-import androidx.compose.ui.text.TextPainter.paint
 import androidx.compose.ui.unit.IntSize
 import androidx.lifecycle.ViewModel
 import ru.smak.polynomialpainter.painting.CartesianPainter

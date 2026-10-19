@@ -1,7 +1,7 @@
 package ru.smak.polynomialpainter.painting
 
-import java.awt.image.BufferedImage
+import androidx.compose.ui.graphics.drawscope.DrawScope
 
 interface Painter {
-    fun paint(width: Int, height: Int): BufferedImage
+    fun DrawScope.paint()
 }

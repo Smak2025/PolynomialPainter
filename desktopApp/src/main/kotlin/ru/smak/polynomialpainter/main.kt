@@ -12,7 +12,7 @@ fun main() = application {
         title = "PolynomialPainter",
     ) {
         val painter = CartesianPainter()
-        val vm = remember { MainViewModel(painter) }
+        val vm = remember { MainViewModel() }
         App(vm, painter)
     }
 }

@@ -17,4 +17,3 @@ object Converter {
         return plane.yMax - (y / plane.yDen)
     }
 }
-

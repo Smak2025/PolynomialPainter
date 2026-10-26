@@ -1,7 +1,5 @@
 package ru.smak.polynomialpainter.painting.convertation
 
-import org.jetbrains.skia.FontWidth
-
 data class Plane(
     var xMin: Double,
     var xMax: Double,

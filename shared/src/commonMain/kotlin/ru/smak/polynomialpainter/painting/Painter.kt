@@ -1,7 +1,8 @@
 package ru.smak.polynomialpainter.painting
 
-import java.awt.image.BufferedImage
+import androidx.compose.ui.graphics.drawscope.DrawScope
+import ru.smak.polynomialpainter.painting.convertation.Plane
 
 interface Painter {
-    fun paint(width: Int, height: Int): BufferedImage
+    fun DrawScope.paint(plane: Plane)
 }

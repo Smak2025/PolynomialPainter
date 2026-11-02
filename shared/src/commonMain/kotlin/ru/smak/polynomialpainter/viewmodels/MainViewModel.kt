@@ -22,4 +22,13 @@ class MainViewModel : ViewModel() {
         if (size.width <= 0 || size.height <= 0) return
         plane = plane.copy(width = size.width, height = size.height)
     }
+
+    fun changeValue(type: ValueType, value: Double) {
+        when(type){
+            ValueType.X_MIN -> { plane = plane.copy(xMin = value) }
+            ValueType.X_MAX -> { plane = plane.copy(xMax = value) }
+            ValueType.Y_MIN -> { plane = plane.copy(yMin = value) }
+            ValueType.Y_MAX -> { plane = plane.copy(yMax = value) }
+        }
+    }
 }
